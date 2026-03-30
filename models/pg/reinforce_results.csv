@@ -1,0 +1,11 @@
+run_id,description,learning_rate,gamma,hidden_dim,use_baseline,entropy_coef,normalize_returns,total_episodes,mean_reward,std_reward,train_time_min
+1,"Baseline REINFORCE — lr=1e-3, γ=0.99, hidden=256, no baseline",0.001,0.99,256,False,0.01,False,700,-490.7,167.78,0.31
+2,"With baseline — lr=1e-3, γ=0.99, hidden=256, baseline=True",0.001,0.99,256,True,0.01,False,700,-632.75,270.32,0.32
+3,"Normalised returns — lr=1e-3, γ=0.99, hidden=256, norm=True",0.001,0.99,256,True,0.01,True,700,-594.15,277.51,0.32
+4,"High entropy — lr=1e-3, γ=0.99, ent=0.05, norm=True",0.001,0.99,256,True,0.05,True,700,-643.35,330.08,0.32
+5,"Low LR — lr=5e-4, γ=0.99, hidden=256, norm=True",0.0005,0.99,256,True,0.01,True,700,-720.0,278.31,0.3
+6,"High LR — lr=3e-3, γ=0.99, hidden=256, norm=True",0.003,0.99,256,True,0.01,True,700,-870.1,165.22,0.31
+7,"Small net — lr=1e-3, γ=0.99, hidden=128, norm=True",0.001,0.99,128,True,0.01,True,700,-454.95,162.98,0.26
+8,"Large net — lr=1e-3, γ=0.99, hidden=512, norm=True",0.001,0.99,512,True,0.01,True,700,-608.8,259.84,0.47
+9,"Low gamma — lr=1e-3, γ=0.95, hidden=256, norm=True",0.001,0.95,256,True,0.01,True,700,-558.1,187.01,0.33
+10,"Tuned combo — lr=8e-4, γ=0.99, hidden=256, ent=0.03, norm=True",0.0008,0.99,256,True,0.03,True,700,-553.7,211.94,0.31
