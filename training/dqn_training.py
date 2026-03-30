@@ -211,9 +211,9 @@ DQN_CONFIGS: List[Dict[str, Any]] = [
     },
 ]
 
-TOTAL_TIMESTEPS = 80_000    # per run — ~3–5 min on M1 Pro (~45 min total)
+TOTAL_TIMESTEPS = 120_000   # per run — ~5–7 min on M1 Pro (~55–70 min total)
 EVAL_EPISODES   = 10        # episodes per evaluation
-EVAL_FREQ       = 8_000     # evaluate every N training steps
+EVAL_FREQ       = 10_000    # evaluate every N training steps
 
 
 # ─────────────────────────────────────────────────────────────

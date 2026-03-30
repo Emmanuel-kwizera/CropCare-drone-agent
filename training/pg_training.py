@@ -67,8 +67,8 @@ LOG_DIR_REINFORCE = "logs/reinforce"
 for d in [PPO_MODEL_DIR, LOG_DIR_PPO, LOG_DIR_REINFORCE]:
     os.makedirs(d, exist_ok=True)
 
-PPO_TOTAL_TIMESTEPS       = 80_000    # per run — ~3–5 min on M1 Pro
-REINFORCE_TOTAL_EPISODES  = 500       # per run — ~3–5 min on M1 Pro
+PPO_TOTAL_TIMESTEPS       = 150_000   # per run — ~5–8 min on M1 Pro
+REINFORCE_TOTAL_EPISODES  = 700       # per run — ~5–7 min on M1 Pro
 
 EVAL_EPISODES = 10
 EVAL_FREQ     = 15_000
