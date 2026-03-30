@@ -1,6 +1,6 @@
 run_id,description,learning_rate,n_steps,n_envs,batch_size,n_epochs,gamma,ent_coef,clip_range,total_timesteps,mean_reward,std_reward,train_time_min
-1,"Parallel envs — lr=1e-4, n_envs=4, n_steps=512, ent=0.005, epochs=5",0.0001,512,4,64,5,0.99,0.005,0.2,3000,-430.9,88.89,0.02
-2,"Very low LR — lr=5e-5, n_envs=4, n_steps=512, ent=0.005, epochs=5",5e-05,512,4,64,5,0.99,0.005,0.2,3000,-430.9,88.89,0.02
-3,"Long effective rollout — lr=1e-4, n_envs=4, n_steps=1024, epochs=5",0.0001,1024,4,128,5,0.99,0.008,0.2,3000,-359.4,78.52,0.01
-4,"LR schedule — lr=linear(1e-4→0), n_envs=4, n_steps=512, epochs=5",linear(1e-4→0),512,4,64,5,0.99,0.005,0.2,3000,-423.9,88.89,0.02
-5,"Best combo — lr=1e-4, n_envs=4, n_steps=512, ent=0.01, epochs=8",0.0001,512,4,64,8,0.99,0.01,0.2,3000,-430.2,89.48,0.02
+1,"Parallel envs — lr=1e-4, n_envs=4, n_steps=512, ent=0.005, epochs=5",0.0001,512,4,64,5,0.99,0.005,0.2,500000,-403.95,177.62,2.02
+2,"Very low LR — lr=5e-5, n_envs=4, n_steps=512, ent=0.005, epochs=5",5e-05,512,4,64,5,0.99,0.005,0.2,500000,-403.95,177.62,1.95
+3,"Long effective rollout — lr=1e-4, n_envs=4, n_steps=1024, epochs=5",0.0001,1024,4,128,5,0.99,0.008,0.2,500000,-410.95,177.62,1.62
+4,"LR schedule — lr=linear(1e-4→0), n_envs=4, n_steps=512, epochs=5",linear(1e-4→0),512,4,64,5,0.99,0.005,0.2,500000,-410.95,177.62,1.95
+5,"Best combo — lr=1e-4, n_envs=4, n_steps=512, ent=0.01, epochs=8",0.0001,512,4,64,8,0.99,0.01,0.2,500000,-380.95,177.62,3.3
