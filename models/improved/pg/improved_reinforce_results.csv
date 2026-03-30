@@ -1,6 +1,6 @@
 run_id,description,learning_rate,gamma,hidden_dim,use_baseline,entropy_coef,batch_episodes,total_episodes,mean_reward,std_reward,train_time_min
-1,"No baseline + small net — lr=1e-3, hidden=128, batch_eps=1",0.001,0.99,128,False,0.005,1,30,-421.25,168.55,0.01
-2,"Episode batch=4 — lr=1e-3, hidden=128, no baseline, batch_eps=4",0.001,0.99,128,False,0.005,4,30,-440.8,124.72,0.01
-3,"Low LR + batch — lr=5e-4, hidden=128, no baseline, batch_eps=4",0.0005,0.99,128,False,0.005,4,30,-440.8,124.72,0.01
-4,"Tiny net — lr=1e-3, hidden=64, no baseline, batch_eps=2",0.001,0.99,64,False,0.01,2,30,-437.0,132.26,0.01
-5,"Best combo — lr=8e-4, hidden=128, no baseline, batch_eps=4, ent=0.008",0.0008,0.99,128,False,0.008,4,30,-440.8,124.72,0.01
+1,"No baseline + small net — lr=1e-3, hidden=128, batch_eps=1",0.001,0.99,128,False,0.005,1,2000,-440.8,124.72,0.69
+2,"Episode batch=4 — lr=1e-3, hidden=128, no baseline, batch_eps=4",0.001,0.99,128,False,0.005,4,2000,-440.8,124.72,0.7
+3,"Low LR + batch — lr=5e-4, hidden=128, no baseline, batch_eps=4",0.0005,0.99,128,False,0.005,4,2000,-1149.8,253.53,0.71
+4,"Tiny net — lr=1e-3, hidden=64, no baseline, batch_eps=2",0.001,0.99,64,False,0.01,2,2000,-440.8,124.72,0.68
+5,"Best combo — lr=8e-4, hidden=128, no baseline, batch_eps=4, ent=0.008",0.0008,0.99,128,False,0.008,4,2000,-440.8,124.72,0.71
