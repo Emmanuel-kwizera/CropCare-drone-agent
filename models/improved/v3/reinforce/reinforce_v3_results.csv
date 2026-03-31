@@ -1,0 +1,6 @@
+run_id,description,learning_rate,hidden_dim,entropy_coef,batch_episodes,proximity_scale,easy_env,total_episodes,mean_reward,std_reward,train_time_min
+1,"v2 best scaled — lr=1e-3, hidden=128, batch=16, ent=0.01",0.001,128,0.01,16,2.0,True,32,-69.47,3.05,0.01
+2,"Max batch=32 — lr=1e-3, hidden=128, ent=0.01",0.001,128,0.01,32,2.0,True,32,-69.47,3.05,0.01
+3,"Strong prox=4.0 — lr=1e-3, hidden=128, batch=16, ent=0.01",0.001,128,0.01,16,4.0,True,32,-62.93,6.1,0.01
+4,"High entropy — lr=1e-3, hidden=128, batch=16, ent=0.05, prox=3.0",0.001,128,0.05,16,3.0,True,32,-66.2,4.58,0.0
+5,"Best combo — lr=8e-4, hidden=128, batch=32, ent=0.02, prox=3.0",0.0008,128,0.02,32,3.0,True,32,-66.2,4.58,0.0

@@ -1,0 +1,6 @@
+run_id,description,learning_rate,n_steps,n_envs,n_epochs,ent_coef,proximity_scale,vec_normalize,total_timesteps,mean_reward,std_reward,train_time_min
+1,"v2 best scaled — lr=1e-4, prox=4.0, n_steps=512, ent=0.01, epochs=5",0.0001,512,4,5,0.01,4.0,True,3000,-113.73,87.44,0.02
+2,"Longer rollout — lr=1e-4, prox=3.0, n_steps=1024, ent=0.01, epochs=5",0.0001,1024,4,5,0.01,3.0,True,3000,-140.2,99.33,0.02
+3,"High entropy — lr=1e-4, prox=4.0, n_steps=512, ent=0.05, epochs=5",0.0001,512,4,5,0.05,4.0,True,3000,-123.87,110.17,0.02
+4,"Large net — lr=1e-4, prox=5.0, n_steps=512, ent=0.01, arch=[256,256,128]",0.0001,512,4,5,0.01,5.0,True,3000,-104.8,120.63,0.02
+5,"Best combo — lr=1e-4, prox=3.5, n_steps=1024, ent=0.02, epochs=8",0.0001,1024,4,8,0.02,3.5,True,3000,-87.83,102.05,0.02

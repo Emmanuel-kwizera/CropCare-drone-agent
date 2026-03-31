@@ -1,0 +1,6 @@
+run_id,description,learning_rate,buffer_size,gradient_steps,exploration_fraction,proximity_scale,easy_env,total_timesteps,mean_reward,std_reward,train_time_min
+1,"Easy env baseline — lr=1e-4, grad=4, buf=100k, expl=0.25",0.0001,100000,4,0.25,2.0,True,500000,-52.87,12.12,29.97
+2,"Max gradient — lr=1e-4, grad=8, buf=100k, expl=0.25",0.0001,100000,8,0.25,2.0,True,500000,-49.33,7.27,53.89
+3,"Strong proximity — lr=1e-4, grad=4, prox=4.0, expl=0.25",0.0001,100000,4,0.25,4.0,True,500000,-45.93,11.38,28.49
+4,"Long explore — lr=1e-4, grad=4, expl=0.40, prox=2.0",0.0001,100000,4,0.4,2.0,True,500000,-52.07,9.81,26.69
+5,"Best combo — lr=1e-4, grad=8, prox=3.0, expl=0.30, buf=150k",0.0001,150000,8,0.3,3.0,True,500000,-52.73,12.3,66.29
