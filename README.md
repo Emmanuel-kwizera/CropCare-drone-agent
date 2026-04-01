@@ -10,7 +10,7 @@ This project simulates complex real-world resource management and diagnostic rou
 
 ## Demo Video
 
-[Watch the demo on YouTube (Insert Link Here)]
+[Watch the demo on YouTube (https://youtu.be/qlMvnwkym68)]
 
 ## Installation
 
