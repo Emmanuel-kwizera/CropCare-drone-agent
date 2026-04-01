@@ -48,7 +48,7 @@ CSV_PATH  = "models/improved/ppo_v2/ppo_v2_results.csv"
 os.makedirs(MODEL_DIR, exist_ok=True)
 os.makedirs(LOG_DIR,   exist_ok=True)
 
-TOTAL_TIMESTEPS = 600_000   # ~10–16 min per run on M1 Pro
+TOTAL_TIMESTEPS = 600_000  
 EVAL_EPISODES   = 10
 EVAL_FREQ       = 25_000
 N_ENVS          = 4

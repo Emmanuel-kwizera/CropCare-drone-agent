@@ -52,9 +52,9 @@ CSV_PATH  = "models/improved/reinforce_v2/reinforce_v2_results.csv"
 os.makedirs(MODEL_DIR, exist_ok=True)
 os.makedirs(LOG_DIR,   exist_ok=True)
 
-TOTAL_EPISODES = 4_000   # ~3–6 min per run on M1 Pro
+TOTAL_EPISODES = 4_000   
 EVAL_EPISODES  = 15
-REWARD_CLIP    = 50.0    # clip rewards before computing returns
+REWARD_CLIP    = 50.0    
 
 
 # ─────────────────────────────────────────────────────────────

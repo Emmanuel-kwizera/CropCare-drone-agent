@@ -41,7 +41,7 @@ CSV_PATH  = "models/improved/dqn/improved_dqn_results.csv"
 os.makedirs(MODEL_DIR, exist_ok=True)
 os.makedirs(LOG_DIR,   exist_ok=True)
 
-TOTAL_TIMESTEPS = 400_000   # ~8–12 min per run on M1 Pro
+TOTAL_TIMESTEPS = 400_000   
 EVAL_EPISODES   = 10
 EVAL_FREQ       = 20_000
 

@@ -19,13 +19,6 @@ Usage
   # Disable rendering during eval
   python training/dqn_training.py --no-render
 
-M1 Pro notes
-─────────────
-  Each run ≈ 80 000 timesteps.
-  Estimated time per run: 3–5 min → ~35–45 min total for all 10.
-  PyTorch will use CPU (SB3 MPS support is still experimental).
-  Set OMP_NUM_THREADS=8 before running to maximise M1 efficiency:
-      export OMP_NUM_THREADS=8 && python training/dqn_training.py
 """
 
 import os
@@ -211,9 +204,9 @@ DQN_CONFIGS: List[Dict[str, Any]] = [
     },
 ]
 
-TOTAL_TIMESTEPS = 120_000   # per run — ~5–7 min on M1 Pro (~55–70 min total)
-EVAL_EPISODES   = 10        # episodes per evaluation
-EVAL_FREQ       = 10_000    # evaluate every N training steps
+TOTAL_TIMESTEPS = 120_000   
+EVAL_EPISODES   = 10        
+EVAL_FREQ       = 10_000    
 
 
 # ─────────────────────────────────────────────────────────────

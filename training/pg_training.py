@@ -27,11 +27,6 @@ Usage
   python training/pg_training.py --algo ppo --smoke-test
   python training/pg_training.py --algo reinforce --smoke-test
 
-M1 Pro notes
-─────────────
-  PPO   : ~3–5 min per run  → ~35–45 min total
-  REIN  : ~3–5 min per run  → ~35–45 min total
-  export OMP_NUM_THREADS=8 before running for best performance
 """
 
 import os
@@ -67,8 +62,8 @@ LOG_DIR_REINFORCE = "logs/reinforce"
 for d in [PPO_MODEL_DIR, LOG_DIR_PPO, LOG_DIR_REINFORCE]:
     os.makedirs(d, exist_ok=True)
 
-PPO_TOTAL_TIMESTEPS       = 150_000   # per run — ~5–8 min on M1 Pro
-REINFORCE_TOTAL_EPISODES  = 700       # per run — ~5–7 min on M1 Pro
+PPO_TOTAL_TIMESTEPS       = 150_000   
+REINFORCE_TOTAL_EPISODES  = 700       
 
 EVAL_EPISODES = 10
 EVAL_FREQ     = 15_000
