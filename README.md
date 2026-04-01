@@ -1,6 +1,6 @@
 # AfAlm Drone Crop Disease Management — RL Summative Assignment
 
-**Student:** [Emmanuel Kwizera]
+**Student:** Emmanuel Kwizera
 
 ## Description
 
